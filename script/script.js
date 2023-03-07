@@ -8,4 +8,4 @@ let favoriteColor = prompt("Please enter your favorite color");
 let yourPassword = (firstNameUser + lastNameUser + favoriteColor + num);
 document.getElementById("password").innerHTML = yourPassword;
 
-console.log(`${yourPassword}`);
+console.log(yourPassword);
